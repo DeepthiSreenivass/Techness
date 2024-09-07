@@ -1,0 +1,122 @@
+/* Reset default margin and padding */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a light green background color for the body */
+body {
+    background-color: #f2f9e6;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #38d39f;
+    padding: 15px 15px;
+}
+
+/* Style the navigation bar 
+.navbar {
+    background-color: #55a868;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+} 
+*/
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #38d39f;
+    color: black;
+}
+
+/* Style the main heading */
+.navbar h1 {
+    
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+#billingTable {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 6%;
+    color: #38d39f;
+    background-color: white;
+    border: 2px solid #38d39f;
+}
+
+#billingTable th, #billingTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #38d39f;
+}
+
+/* Style the "Add Product" button */
+#addProduct {
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    background-color: #38d39f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#addProduct:hover {
+    background-color: #38d39f;
+    color: black;
+}
+
+/* Style the GST and Total Amount sections */
+p{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+}
+#gst, #total-amount {
+    
+    font-weight: bold;
+    color: #38d39f;
+    text-align: center;
+    justify-content: center;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+/* Style the form and submit button */
+#billingForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submitBill {
+    background-color: #38d39f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#submitBill:hover {
+    background-color: #38d39f;
+    color: black;
+}
